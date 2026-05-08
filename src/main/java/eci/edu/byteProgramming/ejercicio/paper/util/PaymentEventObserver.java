@@ -1,11 +1,9 @@
 package eci.edu.byteProgramming.ejercicio.paper.util;
 
-import javax.management.Notification;
-
 public class PaymentEventObserver implements PaymentObserver {
     private Inventory inventory;
     private Facturation facturation;
-    private Notification notification;
+    private eci.edu.byteProgramming.ejercicio.paper.util.Notification notification;
     
     public PaymentEventObserver(Inventory inventory, Facturation facturation, Notification notification) {
         this.inventory = inventory;
